@@ -1,0 +1,24 @@
+.boat {
+    animation: boat 3s linear infinite;
+    background-repeat: no-repeat;
+    bottom: 80px;
+    height: 145px;
+    right: 20vw;
+    position: absolute;
+    width: 250px;
+    z-index: 10;
+}
+
+@keyframes boat {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}

@@ -1,0 +1,33 @@
+.star {
+    position: absolute;
+    top: 5vh;
+    left: 40%;
+    height: 2px;
+    width: 2px;
+    border-radius: 100%;
+    background: white;
+}
+.star:nth-of-type(2) {
+    top: 30vh;
+    left: 80vw;
+}
+.star:nth-of-type(3) {
+    top: 35vh;
+    left: 60vw;
+}
+.star:nth-of-type(4) {
+    top: 2vh;
+    left: 90vw;
+}
+.star:nth-of-type(5) {
+    top: 18vh;
+    left: 30vw;
+}
+.star:nth-of-type(6) {
+    top: 10vh;
+    left: 10vw;
+}
+.star:nth-of-type(7) {
+    top: 5vh;
+    left: 70vw;
+}

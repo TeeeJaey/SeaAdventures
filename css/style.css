@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.sky {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#456c7c, #74cbee, #82c1d4, #bae4e6, #fdd288, #f9855d);
+}
+
+.moon {
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 10vw;
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: -14px 20px 0 0 white;
+    z-index: 1;
+}
+
+.sunken-ship {
+    position: absolute;
+    bottom: 1px;
+    height: 300px;
+    z-index: 9;
+    right: 20vw;
+}
+
+.seabed {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    opacity: 0.5;
+}
+
+.underwater {
+    position: absolute;
+    top: 100vh;
+    background: linear-gradient(#07b1bd, #008591, #004b61, #002a37, #00141b, #00141b, #000);
+    height: 600vh;
+    width: 100%;
+}
+
+.underwater-items {
+    opacity: 0.8;
+}
+
+.chest {
+    position: absolute;
+    bottom: 1px;
+    height: 100px;
+    z-index: 9;
+    right: 40vw;
+}

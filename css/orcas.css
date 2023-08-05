@@ -1,0 +1,17 @@
+.orcas {
+    animation: orcas 60s linear infinite;
+    background-repeat: no-repeat;
+    top: 150vh;
+    position: absolute;
+    width: 250px;
+    z-index: 10;
+}
+
+@keyframes orcas {
+    0% {
+        transform: translateX(-10vw) scale(0);
+    }
+    100% {
+        transform: translateX(130vw) scale(2);
+    }
+}

@@ -1,0 +1,54 @@
+.airplane {
+    width: 150px;
+    top: 120px;
+    right: -150vw;
+    position: absolute;
+    z-index: 3;
+    animation: plane 35s linear infinite;
+}
+.airplane img {
+    z-index: 3;
+    width: 150px;
+}
+
+.flame {
+    top: 23px;
+    left: 40px;
+    height: 10px;
+    width: 60px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffffff;
+    animation: flame 0.4s linear infinite;
+    z-index: -1;
+}
+.flame2 {
+    top: 88px;
+    left: 60px;
+    height: 10px;
+    width: 60px;
+}
+.flame3 {
+    top: 75px;
+    left: 55px;
+    height: 10px;
+    width: 55px;
+}
+
+@keyframes flame {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes plane {
+    100% {
+        transform: translateX(-120vw);
+    }
+}
